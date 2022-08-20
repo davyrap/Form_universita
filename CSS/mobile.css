@@ -1,8 +1,18 @@
-@media screen and (max-width: 768px) {    
+@media screen and (max-width: 768px) {   
+    body{
+        background-size: auto;
+    }
+    
     #buttons{
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+    }
+
+    #closePop{
+        height: 2rem;
+        width: 2rem;
+        font-size: 2rem;
     }
 
     #popup{
@@ -11,16 +21,22 @@
     }
     #popup h1{
         font-size: 3rem;
+        padding: 1rem;
     }
     #popup h2{
-        font-size: 1.5rem;
+        font-size: 1rem;
         padding-bottom: 3rem;
     }
+    #popupTitle{
+        align-items: center;
+    }
+
     #buttons button{
-        font-size: 1.7rem;
+        font-size: 1rem;
         margin-bottom: 1rem;
         width: 90%;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
+        height: fit-content;
     }
 }
