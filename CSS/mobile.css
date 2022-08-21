@@ -1,6 +1,7 @@
 @media screen and (max-width: 768px) {   
     body{
-        background-size: auto;
+        background-size: cover;
+        background-image:url(../assets/mobile.png);
     }
     
     #buttons{
