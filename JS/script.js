@@ -3,5 +3,5 @@ function loadForm() {
 }
 
 function loadPref() {
-    window.open("pages/preferenze.html", "_self")
+    window.open("pages/opzioni.html", "_self")
 }

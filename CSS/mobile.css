@@ -1,7 +1,8 @@
 @media screen and (max-width: 768px) {   
-    body{
+    #body{
         background-size: cover;
         background-image:url(../assets/mobile.png);
+        flex-direction: row;
     }
     
     #buttons{
@@ -32,12 +33,17 @@
         align-items: center;
     }
 
-    #buttons button{
+    .button{
         font-size: 1rem;
         margin-bottom: 1rem;
         width: 90%;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
         height: fit-content;
+    }
+    .button :active{
+        background-color: #274c77dd;
+        color: white;
+        border: white;
     }
 }

@@ -9,7 +9,7 @@
     <script src="JS/script.js"></script>
     <title>Form</title>
 </head>
-<body>
+<body id="body">
     <div id="popup">
         <div id="popupTitle">
             <p></p>
@@ -17,21 +17,21 @@
             <button id="closePop" onclick="loadForm()">&#9747;</button>
         </div>
         <p>Questo sito utilizza cookie e altri strumenti tecnici e, dietro tuo consenso, anche cookie di profilazione
-            o altri strumenti di tracciamento per finalità pubblicitarie. Per conoscere la nostra policy clicca qui.
+            o altri strumenti di tracciamento per finalità pubblicitarie. Per conoscere la nostra policy <a href="pages/trattamentoDati.html">clicca qui</a>.
             Ti informiamo che cliccando sulla «X» rifiuti tutti i cookie e gli strumenti di tracciamento diversi da 
             quelli tecnici.
             Per personalizzare le tue preferenze, clicca sul pulsante "Personalizza".
         </p>
         <div id="buttons">
-            <button id="acceptAll" onclick="loadForm()">
+            <button id="acceptAll" class="button" onclick="loadForm()">
                 Accetta tutto
             </button>
             
-            <button id="acceptEss" onclick="loadForm()">
+            <button id="acceptEss" class="button" onclick="loadForm()">
                 Accetta solo essenziali
             </button>
 
-            <button id="pers" onclick="loadPref()">
+            <button id="pers" class="button" onclick="loadPref()">
                 Personalizza
             </button>
         </div>
